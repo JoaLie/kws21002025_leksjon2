@@ -91,10 +91,10 @@ function SearchBar({
       <label>
         <input
           type="checkbox"
-          label="Only show in stock"
           checked={inStockOnly}
           onChange={(e) => onInStockOnlyChange(e.target.checked)}
         />
+        Only show in stock
       </label>
     </form>
   );
